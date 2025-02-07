@@ -1,0 +1,31 @@
+# Ignore lazy.nvim plugin installations (adjust if your plugin directory is named differently)
+lazy/
+
+# Ignore compiled Lua files
+*.luac
+
+# Ignore temporary files, swap files, backup files, and editor backup files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Ignore node_modules (if you ever use them for plugins or tools)
+node_modules/
+
+# Optionally ignore session files and local config overrides
+session/
+local_config.lua
+
+# You can keep any additional ignores you might need for your workflow:
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
