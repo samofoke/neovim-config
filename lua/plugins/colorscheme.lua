@@ -14,11 +14,12 @@ return {
           "renamer",
           "notify",
           -- "nvim-tree",
-          -- "neo-tree",
+          "neo-tree",
           "bufferline", -- better used if background of `neo-tree` or `nvim-tree` is cleared
         },
       })
       vim.cmd("colorscheme monokai-pro-spectrum")
+      vim.api.nvim_set_hl(0, "IndentBlanklineChar", { fg = "none", nocombine = true })
     end,
   },
 }
