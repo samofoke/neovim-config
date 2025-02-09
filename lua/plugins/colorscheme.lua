@@ -19,7 +19,6 @@ return {
         },
       })
       vim.cmd("colorscheme monokai-pro-spectrum")
-      vim.api.nvim_set_hl(0, "IndentBlanklineChar", { fg = "none", nocombine = true })
     end,
   },
 }

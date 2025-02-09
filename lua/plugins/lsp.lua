@@ -10,6 +10,11 @@ return {
         "tailwindcss-language-server",
         "typescript-language-server",
         "css-lsp",
+        "gopls", -- Go
+        "clangd", -- C/C++
+        "rust_analyzer", -- Rust
+        "pyright", -- Python
+        "elmls",
       })
     end,
   },
