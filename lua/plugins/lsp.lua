@@ -12,7 +12,7 @@ return {
         "css-lsp",
         "gopls", -- Go
         "clangd", -- C/C++
-        "rust_analyzer", -- Rust
+        "rust-analyzer", -- Rust
         "pyright", -- Python
         "elmls",
       })
