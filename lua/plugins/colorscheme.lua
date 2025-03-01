@@ -13,9 +13,9 @@ return {
           "which-key",
           "renamer",
           "notify",
-          -- "nvim-tree",
+          "nvim-tree",
           "neo-tree",
-          "bufferline", -- better used if background of `neo-tree` or `nvim-tree` is cleared
+          "bufferline",
         },
       })
       vim.cmd("colorscheme monokai-pro-spectrum")
