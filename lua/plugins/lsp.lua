@@ -14,7 +14,7 @@ return {
         "clangd", -- C/C++
         "rust-analyzer", -- Rust
         "pyright", -- Python
-        "elmls",
+        "elm-language-server",
       })
     end,
   },
