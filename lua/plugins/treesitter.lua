@@ -7,6 +7,7 @@ return {
       ensure_installed = {
         "javascript",
         "typescript",
+        "tsx",
         "css",
         "gitignore",
         "graphql",
@@ -15,12 +16,16 @@ return {
         "scss",
         "vim",
         "lua",
-        "go", -- Go support
-        "c", -- C support
-        "cpp", -- C++ support
-        "rust", -- Rust support
-        "python", -- Python support
-        "elm", -- Elm support
+        "go",
+        "c",
+        "cpp",
+        "rust",
+        "python",
+        "elm",
+      },
+      highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = false,
       },
       query_linter = {
         enable = true,
@@ -28,5 +33,8 @@ return {
         lint_events = { "BufWrite", "CursorHold" },
       },
     },
+    config = function(_, opts)
+      require("nvim-treesitter.configs").setup(opts)
+    end,
   },
 }
